@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Fonts/Delius-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 1 )
+
+[node name="MapName" type="Spatial"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MapName" type="Label" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 1, 0.690196, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )

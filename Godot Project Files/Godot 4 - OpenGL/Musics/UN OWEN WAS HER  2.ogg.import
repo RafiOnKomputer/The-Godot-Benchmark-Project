@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://3owem5v6m5b8"
+path="res://.godot/imported/UN OWEN WAS HER  2.ogg-bff480f2584202706cbc1b8ea155c49f.oggvorbisstr"
+
+[deps]
+
+source_file="res://Musics/UN OWEN WAS HER  2.ogg"
+dest_files=["res://.godot/imported/UN OWEN WAS HER  2.ogg-bff480f2584202706cbc1b8ea155c49f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://cad7kgcgnkwpr"]
+
+[ext_resource type="Script" uid="uid://r7bbga13hwf7" path="res://Camera/Pivit.gd" id="1"]
+[ext_resource type="Script" uid="uid://tuchwqeq563w" path="res://Camera/Camera.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://g18057gp48p" path="res://Map_Data/IRL/landscape_with_waterfall/scene.gltf" id="3"]
+[ext_resource type="Script" uid="uid://yynsj047c0ju" path="res://UI/MapName.gd" id="4"]
+[ext_resource type="PackedScene" path="res://UI/MapName.tscn" id="5"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hyxc0"]
+
+[sub_resource type="Sky" id="1"]
+sky_material = SubResource("ProceduralSkyMaterial_hyxc0")
+
+[sub_resource type="Environment" id="2"]
+background_mode = 2
+background_energy_multiplier = 4.0
+sky = SubResource("1")
+
+[node name="landscape_with_waterfall" type="Node3D"]
+
+[node name="scene" parent="." instance=ExtResource("3")]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+
+[node name="pivit" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0765419, 5.70227, -1.12537)
+script = ExtResource("1")
+rotation_speed_degrees = 50.0
+max_rotations = 2
+
+[node name="Camera3D" type="Camera3D" parent="pivit"]
+transform = Transform3D(1, 0, 0, 0, 0.828139, 0.560523, 0, -0.560523, 0.828139, 0, 3.37439, 8.63063)
+fov = 70.0
+script = ExtResource("2")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("2")
+
+[node name="MapName" parent="." instance=ExtResource("5")]
+
+[node name="CanvasLayer" parent="MapName" index="0"]
+script = ExtResource("4")
+map_name = "10/10 landscape_with_waterfall"
+
+[editable path="MapName"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BAD APPLE.ogg-90935eff2ba9419ba4e2bda7125d8c7c.oggstr"
+
+[deps]
+
+source_file="res://Musics/BAD APPLE.ogg"
+dest_files=[ "res://.import/BAD APPLE.ogg-90935eff2ba9419ba4e2bda7125d8c7c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

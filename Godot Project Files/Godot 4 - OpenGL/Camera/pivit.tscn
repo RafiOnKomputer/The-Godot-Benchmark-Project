@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Camera3D/Camera.gd" type="Script" id=1]
+[ext_resource path="res://Camera3D/Pivit.gd" type="Script" id=2]
+
+[node name="pivit" type="Node3D"]
+script = ExtResource( 2 )
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D( 1, 0, 0, 0, 0.828139, 0.560523, 0, -0.560523, 0.828139, 0, 3.37439, 8.30395 )
+script = ExtResource( 1 )

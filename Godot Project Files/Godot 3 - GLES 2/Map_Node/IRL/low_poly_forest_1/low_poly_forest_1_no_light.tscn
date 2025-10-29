@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Camera/Pivit.gd" type="Script" id=1]
+[ext_resource path="res://Map_Data/IRL/low_poly_forest_1/scene.gltf" type="PackedScene" id=2]
+[ext_resource path="res://Camera/Camera.gd" type="Script" id=3]
+[ext_resource path="res://UI/MapName.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Fonts/Delius-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 1 )
+
+[node name="low_poly_forest_1" type="Spatial"]
+
+[node name="pivit" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.839229, 0 )
+script = ExtResource( 1 )
+rotation_speed_degrees = 50.0
+max_rotations = 2
+
+[node name="Camera" type="Camera" parent="pivit"]
+transform = Transform( 1, 0, 0, 0, 0.828139, 0.560523, 0, -0.560523, 0.828139, 0, 5.79681, 12.5984 )
+script = ExtResource( 3 )
+
+[node name="scene" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.24294, 0, -0.0138006 )
+
+[node name="MapName" type="Spatial" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="MapName"]
+script = ExtResource( 4 )
+map_name = "08/10 low_poly_forest_No_Lights"
+
+[node name="MapName" type="Label" parent="MapName/CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 1, 0.690196, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )

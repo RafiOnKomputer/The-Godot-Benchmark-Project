@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://c4ph07etgq557"]
+
+[ext_resource type="PackedScene" uid="uid://b8k2yrsrtw0we" path="res://Map_Data/Counter Strike/cs_office_with_real_light/scene.gltf" id="1"]
+[ext_resource type="Script" uid="uid://yynsj047c0ju" path="res://UI/MapName.gd" id="2"]
+[ext_resource type="Script" uid="uid://xsvpjyetrny" path="res://Camera/PathFollow.gd" id="3"]
+[ext_resource type="PackedScene" path="res://UI/MapName.tscn" id="4"]
+
+[sub_resource type="Curve3D" id="1"]
+_data = {
+"points": PackedVector3Array(-1.92103, 0.00436115, -0.0416698, 1.92103, -0.00436115, 0.0416698, 0.534942, 0.163988, 16.2902, -1.25491, 0.0205278, 2.07606, 1.25491, -0.0205278, -2.07606, 31.4772, -0.186918, 15.963, -1.26408, 0.0435514, 1.48343, 1.26408, -0.0435514, -1.48343, 31.8244, 0.0217209, -5.43892, -1.0034, 0.101922, -1.27527, 1.0034, -0.101922, 1.27527, 50.6038, 5.72205e-06, -5.68655, 1.91708, -0.0264826, -0.211662, -1.91708, 0.0264826, 0.211662, 50.2806, -0.12251, 5.36893, -1.12901, 0.0602226, -7.53867, 1.12901, -0.0602226, 7.53867, 45.4673, 0.0295668, 10.6289, -2.00782, 0.0439653, -2.15345, 2.00782, -0.0439653, 2.15345, 59.3098, -0.115847, 15.2611, 3.3018, 0.218926, -0.973289, -3.3018, -0.218926, 0.973289, 58.9538, -0.06598, 30.0884, 0.978043, 0.143221, 4.6224, -0.978043, -0.143221, -4.6224, 50.6806, -0.166287, 26.357, 1.50232, 0.11559, -1.86681, -1.50232, -0.11559, 1.86681, 39.763, 0.00592899, 23.7912, 4.59341, -0.0428667, -2.487, -4.59341, 0.0428667, 2.487, 38.2791, -0.0983486, 41.7768, 2.19801, 0.0451651, -3.5509, -2.19801, -0.0451651, 3.5509, 25.8061, -1.23022, 42.9303, 1.48387, -0.154681, -2.90072, -1.48387, 0.154681, 2.90072, 25.8121, -3.88276, 65.3781, 0, 0, 0, 0, 0, 0, 4.34358, -3.69502, 67.2079, 2.86093, -0.0795891, 3.44057, -2.86093, 0.0795891, -3.44057, -15.5077, -3.57623, 64.444, 0, 0, 0, 0, 0, 0, -15.3291, -4.10904, 44.9128),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 16
+
+[node name="cs_office_with_real_light" type="Node3D"]
+
+[node name="scene" parent="." instance=ExtResource("1")]
+
+[node name="Path3D" type="Path3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9256, -8.77135, -32.7255)
+curve = SubResource("1")
+
+[node name="PathFollow3D" type="PathFollow3D" parent="Path3D"]
+transform = Transform3D(-0.021686327, 0, -0.99976474, 0, 1, 0, 0.99976474, 0, -0.021686327, 0.534942, 0.163988, 16.2902)
+rotation_mode = 1
+loop = false
+script = ExtResource("3")
+speed = 10.0
+
+[node name="Camera3D" type="Camera3D" parent="Path3D/PathFollow3D"]
+fov = 70.0
+far = 100.0
+
+[node name="MapName" parent="." instance=ExtResource("4")]
+
+[node name="CanvasLayer" parent="MapName" index="0"]
+script = ExtResource("2")
+map_name = "04/10 cs_office"
+
+[editable path="MapName"]

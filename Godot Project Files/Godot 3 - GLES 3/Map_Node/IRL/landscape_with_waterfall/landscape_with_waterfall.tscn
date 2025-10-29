@@ -1,0 +1,40 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Camera/Pivit.gd" type="Script" id=1]
+[ext_resource path="res://Camera/Camera.gd" type="Script" id=2]
+[ext_resource path="res://Map_Data/IRL/landscape_with_waterfall/scene.gltf" type="PackedScene" id=3]
+[ext_resource path="res://UI/MapName.gd" type="Script" id=4]
+[ext_resource path="res://UI/MapName.tscn" type="PackedScene" id=5]
+
+[sub_resource type="ProceduralSky" id=1]
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+background_energy = 4.0
+
+[node name="landscape_with_waterfall" type="Spatial"]
+
+[node name="scene" parent="." instance=ExtResource( 3 )]
+transform = Transform( 100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0 )
+
+[node name="pivit" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0765419, 5.70227, -1.12537 )
+script = ExtResource( 1 )
+rotation_speed_degrees = 50.0
+max_rotations = 2
+
+[node name="Camera" type="Camera" parent="pivit"]
+transform = Transform( 1, 0, 0, 0, 0.828139, 0.560523, 0, -0.560523, 0.828139, 0, 3.37439, 8.63063 )
+script = ExtResource( 2 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="MapName" parent="." instance=ExtResource( 5 )]
+
+[node name="CanvasLayer" parent="MapName" index="0"]
+script = ExtResource( 4 )
+map_name = "10/10 landscape_with_waterfall"
+
+[editable path="MapName"]

@@ -1,0 +1,71 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[accessibility]
+
+general/accessibility_support=2
+
+[application]
+
+config/name="Godot 4 Vulkan Mobile Test"
+config/description="A Godot Game To Test 3D Performance "
+run/main_scene="res://BenchmarkManager/Main.tscn"
+config/features=PackedStringArray("4.5")
+run/delta_smoothing=false
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://Images/media-247210403.png"
+config/icon="res://Images/Mrisad icon.png"
+
+[display]
+
+window/size/mode=3
+window/stretch/aspect="expand"
+window/vsync/vsync_mode=false
+window/size/fullscreen=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+esc={
+"deadzone": 0.5,
+"events": []
+}
+
+[physics]
+
+3d/run_on_separate_thread=true
+common/enable_pause_aware_picking=true
+3d/active_soft_world=false
+
+[rendering]
+
+occlusion_culling/bvh_build_quality=0
+rendering_device/fallback_to_d3d12=false
+renderer/rendering_method="mobile"
+textures/vram_compression/import_s3tc_bptc=true
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=0
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=0
+textures/default_filters/anisotropic_filtering_level=0
+camera/depth_of_field/depth_of_field_bokeh_shape=0
+camera/depth_of_field/depth_of_field_bokeh_quality=0
+environment/ssao/quality=0
+environment/ssil/quality=0
+anti_aliasing/screen_space_roughness_limiter/enabled=false
+textures/decals/filter=0
+textures/light_projectors/filter=0
+environment/glow/upscale_mode=0
+global_illumination/sdfgi/frames_to_converge=0
+environment/volumetric_fog/use_filter=0
+occlusion_culling/use_occlusion_culling=true
+environment/defaults/default_environment="uid://b6us37ldapur0"
+threads/thread_model=2

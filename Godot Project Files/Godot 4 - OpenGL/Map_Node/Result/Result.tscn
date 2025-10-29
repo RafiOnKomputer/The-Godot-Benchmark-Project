@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://qek8uvksvecj"]
+
+[ext_resource type="Script" uid="uid://cb41ysjc2mdrk" path="res://Map_Node/Result/result.gd" id="1_djd76"]
+[ext_resource type="FontFile" uid="uid://db7kgy1xpaay1" path="res://Fonts/IBMPlexMono-SemiBold.ttf" id="2_v8g8s"]
+
+[node name="Result" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_djd76")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.6313726, 0.654902, 1)
+
+[node name="ResultsLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_v8g8s")
+theme_override_font_sizes/font_size = 20

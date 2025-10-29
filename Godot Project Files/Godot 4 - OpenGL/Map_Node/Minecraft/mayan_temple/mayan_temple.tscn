@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://xaqxbe2bh2dh"]
+
+[ext_resource type="PackedScene" uid="uid://dpbwchedi244d" path="res://Map_Data/Minecraft/mayan_temple/scene.gltf" id="1"]
+[ext_resource type="Script" uid="uid://r7bbga13hwf7" path="res://Camera/Pivit.gd" id="2"]
+[ext_resource type="PackedScene" path="res://UI/MapName.tscn" id="3"]
+[ext_resource type="Script" uid="uid://tuchwqeq563w" path="res://Camera/Camera.gd" id="4"]
+[ext_resource type="Script" uid="uid://yynsj047c0ju" path="res://UI/MapName.gd" id="5"]
+
+[node name="mayan_temple" type="Node3D"]
+
+[node name="scene" parent="." instance=ExtResource("1")]
+
+[node name="pivit" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.267747, 6.9943, 0.70578)
+script = ExtResource("2")
+
+[node name="Camera3D" type="Camera3D" parent="pivit"]
+transform = Transform3D(-1, 0, -8.74228e-08, -2.22639e-08, 0.967028, 0.254669, 8.45403e-08, 0.254669, -0.967028, 2.38419e-07, 2.87633, -13.4564)
+fov = 100.0
+far = 100.0
+script = ExtResource("4")
+
+[node name="MapName" parent="." instance=ExtResource("3")]
+
+[node name="CanvasLayer" parent="MapName" index="0"]
+script = ExtResource("5")
+map_name = "06/10 mayan_temple"
+
+[editable path="MapName"]

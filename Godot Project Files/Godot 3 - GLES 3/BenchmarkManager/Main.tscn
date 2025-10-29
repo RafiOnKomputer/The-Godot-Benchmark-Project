@@ -1,0 +1,80 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://UI/CanvasLayer.gd" type="Script" id=1]
+[ext_resource path="res://BenchmarkManager/BenchmarkManager.gd" type="Script" id=2]
+[ext_resource path="res://Fonts/Delius-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Musics/AudioStreamPlayer.gd" type="Script" id=4]
+[ext_resource path="res://FPS Counter/Control.gd" type="Script" id=5]
+[ext_resource path="res://Musics/BAD APPLE.ogg" type="AudioStream" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 45
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFontData" id=2]
+font_path = "res://Fonts/Delius-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=3]
+size = 25
+font_data = SubResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFontData" id=5]
+font_path = "res://Fonts/Delius-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=6]
+size = 18
+font_data = SubResource( 5 )
+
+[node name="BenchmarkManager" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Fps Counter" type="Spatial" parent="."]
+
+[node name="Control" type="Control" parent="Fps Counter"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="Fps Counter/Control"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.454902, 1, 0.423529, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource( 1 )
+
+[node name="Version" type="Label" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 1, 0, 0.376471, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+
+[node name="Mute" type="Label" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+
+[node name="Credit" type="Label" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.364706, 0.505882, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 6 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true
+script = ExtResource( 4 )

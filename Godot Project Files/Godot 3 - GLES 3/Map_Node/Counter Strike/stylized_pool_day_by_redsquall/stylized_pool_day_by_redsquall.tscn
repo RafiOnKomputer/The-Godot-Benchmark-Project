@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Camera/Pivit.gd" type="Script" id=1]
+[ext_resource path="res://UI/MapName.gd" type="Script" id=2]
+[ext_resource path="res://Map_Data/Counter Strike/stylized_pool_day_by_redsquall/scene.gltf" type="PackedScene" id=3]
+[ext_resource path="res://UI/MapName.tscn" type="PackedScene" id=5]
+
+[node name="stylized_pool_day_by_redsquall" type="Spatial"]
+
+[node name="pivit" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.0111, 50.8181, -2.59229 )
+script = ExtResource( 1 )
+rotation_speed_degrees = 60.0
+max_rotations = 2
+
+[node name="Camera" type="Camera" parent="pivit"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 3.37439, -26.5448 )
+far = 125.0
+
+[node name="scene" parent="." instance=ExtResource( 3 )]
+transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0 )
+
+[node name="MapName" parent="." instance=ExtResource( 5 )]
+
+[node name="CanvasLayer" parent="MapName" index="0"]
+script = ExtResource( 2 )
+map_name = "03/10 pool_day"
+
+[editable path="MapName"]
