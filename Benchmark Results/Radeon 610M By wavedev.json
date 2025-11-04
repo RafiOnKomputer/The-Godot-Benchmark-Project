@@ -1,0 +1,86 @@
+[
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "AMD Ryzen 3 7320U with Radeon Graphics",
+		"gpu": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001506) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.12033.1030)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 116,
+			"miside_room": 158,
+			"pool_day": 307,
+			"cs_office": 262,
+			"site_c_haven": 98,
+			"mayan_temple": 212,
+			"Fumo": 150,
+			"Fumo_Lights": 63,
+			"Fumo_Baked_Lights": 154,
+			"low_poly_forest_no_light": 263,
+			"low_poly_forest": 213,
+			"city_buildings_no_lights": 132,
+			"city_buildings": 91,
+			"landscape_with_waterfall": 226
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "AMD Ryzen 3 7320U with Radeon Graphics",
+		"gpu": "AMD Radeon(TM) Graphics",
+		"api": "Vulkan 1.3.292",
+		"results": {
+			"nordic_village": 57,
+			"miside_room": 115,
+			"pool_day": 381,
+			"cs_office": 328,
+			"site_c_haven": 93,
+			"mayan_temple": 123,
+			"Fumo": 152,
+			"Fumo_Lights": 104,
+			"Fumo_Baked_Lights": 129,
+			"low_poly_forest_no_light": 182,
+			"low_poly_forest": 63,
+			"city_buildings_no_lights": 113,
+			"city_buildings": 51,
+			"landscape_with_waterfall": 152
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Ryzen 3 7320U with Radeon Graphics",
+		"results": {
+			"nordic_village": 108,
+			"miside_room": 344,
+			"pool_day": 691,
+			"cs_office": 772,
+			"site_c_haven": 118,
+			"mayan_temple": 284,
+			"Fumo": 252,
+			"Fumo_Lights": 141,
+			"Fumo_Baked_Lights": 232,
+			"low_poly_forest_no_light": 347,
+			"low_poly_forest": 100,
+			"city_buildings_no_lights": 600,
+			"city_buildings": 132,
+			"landscape_with_waterfall": 244
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Ryzen 3 7320U with Radeon Graphics",
+		"results": {
+			"nordic_village": 200,
+			"miside_room": 267,
+			"pool_day": 420,
+			"cs_office": 120,
+			"site_c_haven": 200,
+			"mayan_temple": 200,
+			"Fumo": 200,
+			"Fumo_Lights": 100,
+			"Fumo_Baked_Lights": 300,
+			"low_poly_forest_no_light": 100,
+			"low_poly_forest": 70,
+			"city_buildings_no_lights": 300,
+			"city_buildings": 70,
+			"landscape_with_waterfall": 100
+		}
+	}
+]

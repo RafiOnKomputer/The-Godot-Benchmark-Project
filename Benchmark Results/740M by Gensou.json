@@ -1,0 +1,42 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Ryzen Z1 Extreme",
+		"results": {
+			"nordic_village": 433,
+			"miside_room": 1063,
+			"pool_day": 1503,
+			"cs_office": 1635,
+			"site_c_haven": 435,
+			"mayan_temple": 838,
+			"Fumo": 896,
+			"Fumo_Lights": 530,
+			"Fumo_Baked_Lights": 685,
+			"low_poly_forest_no_light": 1130,
+			"low_poly_forest": 798,
+			"city_buildings_no_lights": 783,
+			"city_buildings": 521,
+			"landscape_with_waterfall": 1177
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Ryzen Z1 Extreme",
+		"results": {
+			"nordic_village": 321,
+			"miside_room": 531,
+			"pool_day": 727,
+			"cs_office": 675,
+			"site_c_haven": 294,
+			"mayan_temple": 415,
+			"Fumo": 568,
+			"Fumo_Lights": 399,
+			"Fumo_Baked_Lights": 492,
+			"low_poly_forest_no_light": 697,
+			"low_poly_forest": 233,
+			"city_buildings_no_lights": 394,
+			"city_buildings": 154,
+			"landscape_with_waterfall": 604
+		}
+	}
+]

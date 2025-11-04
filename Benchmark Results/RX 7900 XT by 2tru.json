@@ -1,0 +1,134 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 1922.0,
+			"miside_room": 1782.0,
+			"pool_day": 3150.0,
+			"cs_office": 3060.0,
+			"site_c_haven": 1054.0,
+			"mayan_temple": 2736.0,
+			"Fumo": 2209.0,
+			"Fumo_Lights": 1477.0,
+			"Fumo_Baked_Lights": 1118.0,
+			"low_poly_forest_no_light": 2908.0,
+			"low_poly_forest": 2715.0,
+			"city_buildings_no_lights": 1913.0,
+			"city_buildings": 1427.0,
+			"landscape_with_waterfall": 3031.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 1964.0,
+			"miside_room": 1420.0,
+			"pool_day": 2909.0,
+			"cs_office": 2791.0,
+			"site_c_haven": 901.0,
+			"mayan_temple": 2277.0,
+			"Fumo": 1910.0,
+			"Fumo_Lights": 1390.0,
+			"Fumo_Baked_Lights": 1235.0,
+			"low_poly_forest_no_light": 2632.0,
+			"low_poly_forest": 1385.0,
+			"city_buildings_no_lights": 1658.0,
+			"city_buildings": 1005.0,
+			"landscape_with_waterfall": 2715.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "AMD Radeon RX 7900 XT",
+		"api": "OpenGL 3.3.0 Core Profile Context 25.9.1.250822",
+		"results": {
+			"nordic_village": 1970.0,
+			"miside_room": 1576.0,
+			"pool_day": 3305.0,
+			"cs_office": 3181.0,
+			"site_c_haven": 1045.0,
+			"mayan_temple": 2946.0,
+			"Fumo": 1942.0,
+			"Fumo_Lights": 1041.0,
+			"Fumo_Baked_Lights": 1869.0,
+			"low_poly_forest_no_light": 3062.0,
+			"low_poly_forest": 2983.0,
+			"city_buildings_no_lights": 1576.0,
+			"city_buildings": 1190.0,
+			"landscape_with_waterfall": 3124.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "ANGLE (AMD, AMD Radeon RX 7900 XT (0x0000744C) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.21025.10016)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 720.0,
+			"miside_room": 510.0,
+			"pool_day": 984.0,
+			"cs_office": 942.0,
+			"site_c_haven": 420.0,
+			"mayan_temple": 929.0,
+			"Fumo": 573.0,
+			"Fumo_Lights": 236.0,
+			"Fumo_Baked_Lights": 563.0,
+			"low_poly_forest_no_light": 963.0,
+			"low_poly_forest": 950.0,
+			"city_buildings_no_lights": 540.0,
+			"city_buildings": 454.0,
+			"landscape_with_waterfall": 892.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "AMD Radeon RX 7900 XT",
+		"api": "Vulkan 1.4.315",
+		"results": {
+			"nordic_village": 1303.0,
+			"miside_room": 1517.0,
+			"pool_day": 2131.0,
+			"cs_office": 2057.0,
+			"site_c_haven": 1086.0,
+			"mayan_temple": 1981.0,
+			"Fumo": 1493.0,
+			"Fumo_Lights": 1061.0,
+			"Fumo_Baked_Lights": 1480.0,
+			"low_poly_forest_no_light": 2001.0,
+			"low_poly_forest": 1732.0,
+			"city_buildings_no_lights": 1530.0,
+			"city_buildings": 1314.0,
+			"landscape_with_waterfall": 1973.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "AMD Ryzen 7 5700X3D 8-Core Processor",
+		"gpu": "AMD Radeon RX 7900 XT",
+		"api": "Vulkan 1.4.315",
+		"results": {
+			"nordic_village": 1225,
+			"miside_room": 1352,
+			"pool_day": 2053,
+			"cs_office": 1965,
+			"site_c_haven": 927,
+			"mayan_temple": 1721,
+			"Fumo": 1354,
+			"Fumo_Lights": 943,
+			"Fumo_Baked_Lights": 1359,
+			"low_poly_forest_no_light": 1852,
+			"low_poly_forest": 1063,
+			"city_buildings_no_lights": 1266,
+			"city_buildings": 933,
+			"landscape_with_waterfall": 1848
+		}
+	}
+]

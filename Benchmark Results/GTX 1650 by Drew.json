@@ -1,0 +1,134 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 433.0,
+			"miside_room": 1285.0,
+			"pool_day": 2138.0,
+			"cs_office": 2099.0,
+			"site_c_haven": 454.0,
+			"mayan_temple": 1095.0,
+			"Fumo": 993.0,
+			"Fumo_Lights": 552.0,
+			"Fumo_Baked_Lights": 769.0,
+			"low_poly_forest_no_light": 1233.0,
+			"low_poly_forest": 814.0,
+			"city_buildings_no_lights": 981.0,
+			"city_buildings": 562.0,
+			"landscape_with_waterfall": 1439.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 369.0,
+			"miside_room": 708.0,
+			"pool_day": 1064.0,
+			"cs_office": 1040.0,
+			"site_c_haven": 310.0,
+			"mayan_temple": 631.0,
+			"Fumo": 694.0,
+			"Fumo_Lights": 476.0,
+			"Fumo_Baked_Lights": 664.0,
+			"low_poly_forest_no_light": 840.0,
+			"low_poly_forest": 261.0,
+			"city_buildings_no_lights": 555.0,
+			"city_buildings": 189.0,
+			"landscape_with_waterfall": 795.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "NVIDIA GeForce GTX 1650",
+		"api": "OpenGL 3.3.0 NVIDIA 576.80",
+		"results": {
+			"nordic_village": 426.0,
+			"miside_room": 702.0,
+			"pool_day": 1209.0,
+			"cs_office": 1128.0,
+			"site_c_haven": 498.0,
+			"mayan_temple": 794.0,
+			"Fumo": 650.0,
+			"Fumo_Lights": 417.0,
+			"Fumo_Baked_Lights": 651.0,
+			"low_poly_forest_no_light": 872.0,
+			"low_poly_forest": 777.0,
+			"city_buildings_no_lights": 640.0,
+			"city_buildings": 475.0,
+			"landscape_with_waterfall": 877.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.7680)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 393.0,
+			"miside_room": 268.0,
+			"pool_day": 572.0,
+			"cs_office": 532.0,
+			"site_c_haven": 235.0,
+			"mayan_temple": 547.0,
+			"Fumo": 296.0,
+			"Fumo_Lights": 140.0,
+			"Fumo_Baked_Lights": 310.0,
+			"low_poly_forest_no_light": 566.0,
+			"low_poly_forest": 552.0,
+			"city_buildings_no_lights": 277.0,
+			"city_buildings": 229.0,
+			"landscape_with_waterfall": 519.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "NVIDIA GeForce GTX 1650",
+		"api": "Vulkan 1.4.303",
+		"results": {
+			"nordic_village": 378.0,
+			"miside_room": 869.0,
+			"pool_day": 1270.0,
+			"cs_office": 1334.0,
+			"site_c_haven": 525.0,
+			"mayan_temple": 837.0,
+			"Fumo": 749.0,
+			"Fumo_Lights": 415.0,
+			"Fumo_Baked_Lights": 637.0,
+			"low_poly_forest_no_light": 1017.0,
+			"low_poly_forest": 754.0,
+			"city_buildings_no_lights": 704.0,
+			"city_buildings": 490.0,
+			"landscape_with_waterfall": 748.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "AMD Ryzen 3 3200G with Radeon Vega Graphics",
+		"gpu": "NVIDIA GeForce GTX 1650",
+		"api": "Vulkan 1.4.303",
+		"results": {
+			"nordic_village": 275,
+			"miside_room": 438,
+			"pool_day": 1043,
+			"cs_office": 1053,
+			"site_c_haven": 332,
+			"mayan_temple": 425,
+			"Fumo": 476,
+			"Fumo_Lights": 318,
+			"Fumo_Baked_Lights": 452,
+			"low_poly_forest_no_light": 604,
+			"low_poly_forest": 199,
+			"city_buildings_no_lights": 404,
+			"city_buildings": 169,
+			"landscape_with_waterfall": 533
+		}
+	}
+]

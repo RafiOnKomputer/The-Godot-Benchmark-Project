@@ -1,0 +1,156 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 879.0,
+			"miside_room": 2006.0,
+			"pool_day": 1986.0,
+			"cs_office": 1440.0,
+			"site_c_haven": 897.0,
+			"mayan_temple": 2259.0,
+			"Fumo": 2336.0,
+			"Fumo_Lights": 1506.0,
+			"Fumo_Baked_Lights": 1471.0,
+			"low_poly_forest_no_light": 2864.0,
+			"low_poly_forest": 2318.0,
+			"city_buildings_no_lights": 2352.0,
+			"city_buildings": 1689.0,
+			"landscape_with_waterfall": 3094.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 601.0,
+			"miside_room": 856.0,
+			"pool_day": 981.0,
+			"cs_office": 966.0,
+			"site_c_haven": 552.0,
+			"mayan_temple": 820.0,
+			"Fumo": 839.0,
+			"Fumo_Lights": 696.0,
+			"Fumo_Baked_Lights": 809.0,
+			"low_poly_forest_no_light": 959.0,
+			"low_poly_forest": 536.0,
+			"city_buildings_no_lights": 749.0,
+			"city_buildings": 434.0,
+			"landscape_with_waterfall": 918.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 391.0,
+			"miside_room": 842.0,
+			"pool_day": 1236.0,
+			"cs_office": 1146.0,
+			"site_c_haven": 287.0,
+			"mayan_temple": 768.0,
+			"Fumo": 814.0,
+			"Fumo_Lights": 574.0,
+			"Fumo_Baked_Lights": 747.0,
+			"low_poly_forest_no_light": 950.0,
+			"low_poly_forest": 283.0,
+			"city_buildings_no_lights": 664.0,
+			"city_buildings": 189.0,
+			"landscape_with_waterfall": 916.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "NVIDIA GeForce RTX 3070",
+		"api": "OpenGL 3.3.0 NVIDIA 581.29",
+		"results": {
+			"nordic_village": 1029.0,
+			"miside_room": 1314.0,
+			"pool_day": 1738.0,
+			"cs_office": 1747.0,
+			"site_c_haven": 1092.0,
+			"mayan_temple": 1833.0,
+			"Fumo": 1448.0,
+			"Fumo_Lights": 1002.0,
+			"Fumo_Baked_Lights": 1439.0,
+			"low_poly_forest_no_light": 1800.0,
+			"low_poly_forest": 1760.0,
+			"city_buildings_no_lights": 1417.0,
+			"city_buildings": 1135.0,
+			"landscape_with_waterfall": 1748.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002488) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.8129)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 922.0,
+			"miside_room": 704.0,
+			"pool_day": 989.0,
+			"cs_office": 940.0,
+			"site_c_haven": 468.0,
+			"mayan_temple": 935.0,
+			"Fumo": 558.0,
+			"Fumo_Lights": 159.0,
+			"Fumo_Baked_Lights": 511.0,
+			"low_poly_forest_no_light": 890.0,
+			"low_poly_forest": 959.0,
+			"city_buildings_no_lights": 549.0,
+			"city_buildings": 564.0,
+			"landscape_with_waterfall": 1234.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "NVIDIA GeForce RTX 3070",
+		"api": "Vulkan 1.4.312",
+		"results": {
+			"nordic_village": 841.0,
+			"miside_room": 731.0,
+			"pool_day": 884.0,
+			"cs_office": 1887.0,
+			"site_c_haven": 902.0,
+			"mayan_temple": 1502.0,
+			"Fumo": 1444.0,
+			"Fumo_Lights": 1025.0,
+			"Fumo_Baked_Lights": 783.0,
+			"low_poly_forest_no_light": 805.0,
+			"low_poly_forest": 556.0,
+			"city_buildings_no_lights": 718.0,
+			"city_buildings": 500.0,
+			"landscape_with_waterfall": 1533.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+		"gpu": "NVIDIA GeForce RTX 3070",
+		"api": "Vulkan 1.4.312",
+		"results": {
+			"nordic_village": 982,
+			"miside_room": 1151,
+			"pool_day": 1256,
+			"cs_office": 1198,
+			"site_c_haven": 762,
+			"mayan_temple": 1213,
+			"Fumo": 1047,
+			"Fumo_Lights": 699,
+			"Fumo_Baked_Lights": 938,
+			"low_poly_forest_no_light": 1219,
+			"low_poly_forest": 944,
+			"city_buildings_no_lights": 986,
+			"city_buildings": 771,
+			"landscape_with_waterfall": 1045
+		}
+	}
+]

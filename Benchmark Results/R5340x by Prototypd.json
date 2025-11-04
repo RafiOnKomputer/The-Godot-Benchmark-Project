@@ -1,0 +1,134 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 46.0,
+			"miside_room": 168.0,
+			"pool_day": 239.0,
+			"cs_office": 246.0,
+			"site_c_haven": 47.0,
+			"mayan_temple": 140.0,
+			"Fumo": 127.0,
+			"Fumo_Lights": 52.0,
+			"Fumo_Baked_Lights": 115.0,
+			"low_poly_forest_no_light": 165.0,
+			"low_poly_forest": 75.0,
+			"city_buildings_no_lights": 117.0,
+			"city_buildings": 54.0,
+			"landscape_with_waterfall": 180.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 34.0,
+			"miside_room": 77.0,
+			"pool_day": 95.0,
+			"cs_office": 96.0,
+			"site_c_haven": 30.0,
+			"mayan_temple": 74.0,
+			"Fumo": 70.0,
+			"Fumo_Lights": 40.0,
+			"Fumo_Baked_Lights": 67.0,
+			"low_poly_forest_no_light": 84.0,
+			"low_poly_forest": 20.0,
+			"city_buildings_no_lights": 59.0,
+			"city_buildings": 18.0,
+			"landscape_with_waterfall": 80.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "OLAND (, LLVM 15.0.7, DRM 2.50, 5.15.0-161-generic)",
+		"api": "OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.3",
+		"results": {
+			"nordic_village": 50.0,
+			"miside_room": 142.0,
+			"pool_day": 230.0,
+			"cs_office": 240.0,
+			"site_c_haven": 64.0,
+			"mayan_temple": 127.0,
+			"Fumo": 134.0,
+			"Fumo_Lights": 69.0,
+			"Fumo_Baked_Lights": 126.0,
+			"low_poly_forest_no_light": 166.0,
+			"low_poly_forest": 96.0,
+			"city_buildings_no_lights": 99.0,
+			"city_buildings": 53.0,
+			"landscape_with_waterfall": 137.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "llvmpipe (LLVM 15.0.7, 256 bits)",
+		"api": "Vulkan 1.3.255",
+		"results": {
+			"nordic_village": 3.0,
+			"miside_room": 10.0,
+			"pool_day": 37.0,
+			"cs_office": 33.0,
+			"site_c_haven": 5.0,
+			"mayan_temple": 8.0,
+			"Fumo": 6.0,
+			"Fumo_Lights": 2.0,
+			"Fumo_Baked_Lights": 1.0,
+			"low_poly_forest_no_light": 7.0,
+			"low_poly_forest": 5.0,
+			"city_buildings_no_lights": 6.0,
+			"city_buildings": 3.0,
+			"landscape_with_waterfall": 8.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "OLAND (, LLVM 15.0.7, DRM 2.50, 5.15.0-161-generic)",
+		"api": "OpenGL 4.5 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.3",
+		"results": {
+			"nordic_village": 49.0,
+			"miside_room": 141.0,
+			"pool_day": 230.0,
+			"cs_office": 242.0,
+			"site_c_haven": 66.0,
+			"mayan_temple": 128.0,
+			"Fumo": 135.0,
+			"Fumo_Lights": 69.0,
+			"Fumo_Baked_Lights": 127.0,
+			"low_poly_forest_no_light": 166.0,
+			"low_poly_forest": 96.0,
+			"city_buildings_no_lights": 95.0,
+			"city_buildings": 54.0,
+			"landscape_with_waterfall": 138.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz",
+		"gpu": "llvmpipe (LLVM 15.0.7, 256 bits)",
+		"api": "Vulkan 1.3.255",
+		"results": {
+			"nordic_village": 1,
+			"miside_room": 4,
+			"pool_day": 16,
+			"cs_office": 14,
+			"site_c_haven": 2,
+			"mayan_temple": 2,
+			"Fumo": 3,
+			"Fumo_Lights": 1,
+			"Fumo_Baked_Lights": 1,
+			"low_poly_forest_no_light": 4,
+			"low_poly_forest": 2,
+			"city_buildings_no_lights": 1,
+			"city_buildings": 1,
+			"landscape_with_waterfall": 3
+		}
+	}
+]
