@@ -95,24 +95,24 @@ Here Is A List Of Feature Support Across Godot 3 And Godot 4 With All Their APIs
 
 |      Features      | Godot 3 GLES2 | Godot 3 GLES3 | Godot 4 GL/GLES | Godot 4 Vulkan Mobile | Godot 4 Vulkan |
 | :----------------: | :-----------: | :-----------: | :-------------: | :-------------------: | :------------: |
-|        SSR         |      ❌       |      ✔       |       ❌        |          ❌           |      ✔       |
-|        SSAO        |      ❌       |      ✔       |       ❌        |          ❌           |      ✔       |
-|        SSIL        |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|       SDFGI        |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|        SSIL        |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|    Volumetric Fog  |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|        Fog         |      ✔       |      ✔       |       ✔        |          ✔           |      ✔       |
-|    Tonemapping     |      ❌       |      ✔       |       ✔        |          ✔           |      ✔       |
-|      MSAA 3D       |      ✔       |      ✔       |       ✔        |          ✔           |      ✔       |
-|      MSAA 2D       |      ✔       |      ✔       |       ❌        |          ✔           |      ✔       |
-|        TAA         |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|       FSR2         |      ❌       |      ❌       |       ❌        |          ❌           |      ✔       |
-|       FXAA         |      ✔       |      ✔       |       ❌        |          ✔           |      ✔       |
-|       SSAA         |      ✔       |      ✔       |       ✔        |          ✔           |      ✔       |
-|    DOF blur        |      ✔       |      ✔       |       ❌        |          ✔           |      ✔       |
-| Light projector textures |     ❌       |      ❌       |       ❌        |          ✔           |      ✔       |
-| SS roughness limiter |     ❌       |      ❌       |       ❌        |          ✔           |      ✔       |
-|   2D HDR Viewport  |      ❌       |      ✔       |       ❌        |          ✔           |      ✔       |
+|        SSR         |      ❌       |     ✔️      |       ❌        |          ❌           |     ✔️      |
+|        SSAO        |      ❌       |     ✔️      |       ❌        |          ❌           |     ✔️      |
+|        SSIL        |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|       SDFGI        |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|        SSIL        |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|    Volumetric Fog  |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|        Fog         |     ✔️      |     ✔️      |      ✔️       |          ✔️           |     ✔️      |
+|    Tonemapping     |      ❌       |     ✔️      |      ✔️       |          ✔️           |     ✔️      |
+|      MSAA 3D       |     ✔️      |     ✔️      |      ✔️       |          ✔️           |     ✔️      |
+|      MSAA 2D       |     ✔️      |     ✔️      |       ❌        |          ✔️           |     ✔️      |
+|        TAA         |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|       FSR2         |      ❌       |      ❌       |       ❌        |          ❌           |     ✔️      |
+|       FXAA         |     ✔️      |     ✔️      |       ❌        |          ✔️           |     ✔️      |
+|       SSAA         |     ✔️      |     ✔️      |      ✔️       |          ✔️           |     ✔️      |
+|    DOF blur        |     ✔️      |     ✔️      |       ❌        |          ✔️           |     ✔️      |
+| Light projector textures |     ❌       |      ❌       |       ❌        |          ✔️           |     ✔️      |
+| SS roughness limiter |     ❌       |      ❌       |       ❌        |          ✔️           |     ✔️      |
+|   2D HDR Viewport  |      ❌       |     ✔️      |       ❌        |          ✔️           |     ✔️      |
 
 
 
