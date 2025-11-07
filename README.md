@@ -89,6 +89,14 @@ In This Test We Have Seen That On Most GPUs, **Vulkan Is 2-4x Slower Than OpenGL
 
 ---
 
+# APIs Used By Godot:
+
+| APIS     | Godot 3   | Godot 4     |
+| :------- | :-------- | :---------- |
+| OpenGL   | 2.1 – 3.3 | 3.3         |
+| GLES     | 2 – 3     | 3           |
+| Vulkan   | N/A       | 1 – 1.3     |
+
 ## 📋 Feature Support Table
 
 Here Is A List Of Feature Support Across Godot 3 And Godot 4 With All Their APIs:
