@@ -10,7 +10,7 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 ## <h2 align="center">NVIDIA GPUs</h2>
 
 - **GeForce RTX 4070 SUPER** — by *Prototypd*  
-- **GeForce RTX 4070 ** — by *Ricky*  
+- **GeForce RTX 4070** — by *Ricky*  
 - **GeForce RTX 4050 Mobile** — by *Teaboy*  
 - **GeForce RTX 4060 TI** — by *Cris0309*  
 - **GeForce RTX 3070** — by *Cris0309*  
@@ -23,7 +23,7 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 - **Quadro 5000** — by *Prototypd*
 
 ## <h2 align="center">Intel GPUs</h2>
-- **Intel Iris Xe Graphics (13th Gen) **  --- by Cris0309
+- **Intel Iris Xe Graphics (13th Gen)**  --- by Cris0309
 - **Intel Iris Xe Graphics (12th Gen)** — by *Tronco*  
 - **Intel Iris Xe Graphics (11th Gen)** — by *Prototypd*  
 - **Intel UHD Graphics (11th Gen)** — by *Cris0309*  
@@ -39,7 +39,7 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 - **Radeon RX 580** — by *elpesaodelainformaticaxd0831*  
 - **Radeon RX Vega 8** — by *Moen*  
 - **Radeon RX Vega 8** — by *Prototypd*  
-- **Radeon RX Vega 6 ** — by *Cris0309*
+- **Radeon RX Vega 6** — by *Cris0309*
 - **Radeon 740M** — by *Gensou*  
 - **Radeon 610M** — by *wavedev*  
 - **Radeon R5 340X** — by *Prototypd*  
