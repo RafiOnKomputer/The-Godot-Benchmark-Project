@@ -1,0 +1,90 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 10.0,
+			"miside_room": 62.0,
+			"pool_day": 207.0,
+			"cs_office": 226.0,
+			"site_c_haven": 28.0,
+			"mayan_temple": 38.0,
+			"Fumo": 36.0,
+			"Fumo_Lights": 10.0,
+			"Fumo_Baked_Lights": 30.0,
+			"low_poly_forest_no_light": 58.0,
+			"low_poly_forest": 21.0,
+			"city_buildings_no_lights": 31.0,
+			"city_buildings": 11.0,
+			"landscape_with_waterfall": 65.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 9.0,
+			"miside_room": 34.0,
+			"pool_day": 86.0,
+			"cs_office": 84.0,
+			"site_c_haven": 10.0,
+			"mayan_temple": 27.0,
+			"Fumo": 23.0,
+			"Fumo_Lights": 9.0,
+			"Fumo_Baked_Lights": 23.0,
+			"low_poly_forest_no_light": 40.0,
+			"low_poly_forest": 10.0,
+			"city_buildings_no_lights": 17.0,
+			"city_buildings": 6.0,
+			"landscape_with_waterfall": 42.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz",
+		"gpu": "Mesa Intel(R) HD Graphics 3000 (SNB GT2)",
+		"api": "OpenGL 3.3 (Core Profile) Mesa 25.0.7-2",
+		"results": {
+			"nordic_village": 8.0,
+			"miside_room": 38.0,
+			"pool_day": 102.0,
+			"cs_office": 108.0,
+			"site_c_haven": 14.0,
+			"mayan_temple": 27.0,
+			"Fumo": 30.0,
+			"Fumo_Lights": 9.0,
+			"Fumo_Baked_Lights": 30.0,
+			"low_poly_forest_no_light": 48.0,
+			"low_poly_forest": 22.0,
+			"city_buildings_no_lights": 15.0,
+			"city_buildings": 8.0,
+			"landscape_with_waterfall": 43.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz",
+		"gpu": "Mesa Intel(R) HD Graphics 3000 (SNB GT2)",
+		"api": "OpenGL ES 3.0 Mesa 25.0.7-2",
+		"results": {
+			"nordic_village": 8,
+			"miside_room": 36,
+			"pool_day": 102,
+			"cs_office": 107,
+			"site_c_haven": 13,
+			"mayan_temple": 27,
+			"Fumo": 30,
+			"Fumo_Lights": 9,
+			"Fumo_Baked_Lights": 29,
+			"low_poly_forest_no_light": 48,
+			"low_poly_forest": 21,
+			"city_buildings_no_lights": 15,
+			"city_buildings": 8,
+			"landscape_with_waterfall": 43
+		}
+	}
+]

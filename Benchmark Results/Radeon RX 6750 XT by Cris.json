@@ -1,0 +1,130 @@
+[
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"gpu": "AMD Radeon RX 6750 XT",
+		"api": "Vulkan 1.4.315",
+		"results": {
+			"nordic_village": 822,
+			"miside_room": 1199,
+			"pool_day": 1589,
+			"cs_office": 1576,
+			"site_c_haven": 826,
+			"mayan_temple": 1258,
+			"Fumo": 1200,
+			"Fumo_Lights": 937,
+			"Fumo_Baked_Lights": 1162,
+			"low_poly_forest_no_light": 1383,
+			"low_poly_forest": 824,
+			"city_buildings_no_lights": 1139,
+			"city_buildings": 727,
+			"landscape_with_waterfall": 1339
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"gpu": "AMD Radeon RX 6750 XT",
+		"api": "Vulkan 1.4.315",
+		"results": {
+			"nordic_village": 1031,
+			"miside_room": 1575,
+			"pool_day": 1779,
+			"cs_office": 1768,
+			"site_c_haven": 1115,
+			"mayan_temple": 1639,
+			"Fumo": 1564,
+			"Fumo_Lights": 1108,
+			"Fumo_Baked_Lights": 1482,
+			"low_poly_forest_no_light": 1645,
+			"low_poly_forest": 1551,
+			"city_buildings_no_lights": 1554,
+			"city_buildings": 1280,
+			"landscape_with_waterfall": 1658
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"gpu": "ANGLE (AMD, AMD Radeon RX 6750 XT (0x000073DF) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.21033.2001)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 742,
+			"miside_room": 513,
+			"pool_day": 1009,
+			"cs_office": 962,
+			"site_c_haven": 417,
+			"mayan_temple": 921,
+			"Fumo": 559,
+			"Fumo_Lights": 174,
+			"Fumo_Baked_Lights": 538,
+			"low_poly_forest_no_light": 923,
+			"low_poly_forest": 932,
+			"city_buildings_no_lights": 529,
+			"city_buildings": 448,
+			"landscape_with_waterfall": 882
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"gpu": "AMD Radeon RX 6750 XT",
+		"api": "OpenGL 3.3.0 Core Profile Context 25.10.2.250923",
+		"results": {
+			"nordic_village": 1387,
+			"miside_room": 1796,
+			"pool_day": 3822,
+			"cs_office": 3856,
+			"site_c_haven": 1188,
+			"mayan_temple": 2678,
+			"Fumo": 2260,
+			"Fumo_Lights": 1163,
+			"Fumo_Baked_Lights": 2179,
+			"low_poly_forest_no_light": 3059,
+			"low_poly_forest": 2734,
+			"city_buildings_no_lights": 1720,
+			"city_buildings": 1279,
+			"landscape_with_waterfall": 3013
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"results": {
+			"nordic_village": 1023,
+			"miside_room": 1423,
+			"pool_day": 1756,
+			"cs_office": 1771,
+			"site_c_haven": 916,
+			"mayan_temple": 1727,
+			"Fumo": 1567,
+			"Fumo_Lights": 1220,
+			"Fumo_Baked_Lights": 1278,
+			"low_poly_forest_no_light": 1747,
+			"low_poly_forest": 837,
+			"city_buildings_no_lights": 1402,
+			"city_buildings": 677,
+			"landscape_with_waterfall": 1685
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Ryzen 5 5600 6-Core Processor",
+		"results": {
+			"nordic_village": 1130,
+			"miside_room": 1531,
+			"pool_day": 1680,
+			"cs_office": 1693,
+			"site_c_haven": 1151,
+			"mayan_temple": 1763,
+			"Fumo": 1708,
+			"Fumo_Lights": 1357,
+			"Fumo_Baked_Lights": 1158,
+			"low_poly_forest_no_light": 1739,
+			"low_poly_forest": 1725,
+			"city_buildings_no_lights": 1672,
+			"city_buildings": 1362,
+			"landscape_with_waterfall": 1709
+		}
+	}
+]
