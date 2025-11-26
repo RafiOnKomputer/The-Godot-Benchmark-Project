@@ -1,0 +1,134 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 1729.0,
+			"miside_room": 2808.0,
+			"pool_day": 4354.0,
+			"cs_office": 4244.0,
+			"site_c_haven": 1523.0,
+			"mayan_temple": 3546.0,
+			"Fumo": 2958.0,
+			"Fumo_Lights": 1986.0,
+			"Fumo_Baked_Lights": 1241.0,
+			"low_poly_forest_no_light": 3517.0,
+			"low_poly_forest": 2811.0,
+			"city_buildings_no_lights": 2837.0,
+			"city_buildings": 2105.0,
+			"landscape_with_waterfall": 3553.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 1305.0,
+			"miside_room": 1877.0,
+			"pool_day": 2869.0,
+			"cs_office": 2754.0,
+			"site_c_haven": 1008.0,
+			"mayan_temple": 2161.0,
+			"Fumo": 2054.0,
+			"Fumo_Lights": 1682.0,
+			"Fumo_Baked_Lights": 1249.0,
+			"low_poly_forest_no_light": 2346.0,
+			"low_poly_forest": 958.0,
+			"city_buildings_no_lights": 1847.0,
+			"city_buildings": 726.0,
+			"landscape_with_waterfall": 2409.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "NVIDIA GeForce RTX 4070 SUPER",
+		"api": "OpenGL 3.3.0 NVIDIA 581.42",
+		"results": {
+			"nordic_village": 1258.0,
+			"miside_room": 1134.0,
+			"pool_day": 1750.0,
+			"cs_office": 1603.0,
+			"site_c_haven": 851.0,
+			"mayan_temple": 1661.0,
+			"Fumo": 1098.0,
+			"Fumo_Lights": 755.0,
+			"Fumo_Baked_Lights": 1074.0,
+			"low_poly_forest_no_light": 1700.0,
+			"low_poly_forest": 1651.0,
+			"city_buildings_no_lights": 1111.0,
+			"city_buildings": 920.0,
+			"landscape_with_waterfall": 1646.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 SUPER (0x00002783) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.8142)",
+		"api": "OpenGL ES 3.0.0 (ANGLE 2.1.1 git hash: d8c00a9d4283)",
+		"results": {
+			"nordic_village": 610.0,
+			"miside_room": 505.0,
+			"pool_day": 819.0,
+			"cs_office": 776.0,
+			"site_c_haven": 377.0,
+			"mayan_temple": 789.0,
+			"Fumo": 471.0,
+			"Fumo_Lights": 216.0,
+			"Fumo_Baked_Lights": 477.0,
+			"low_poly_forest_no_light": 781.0,
+			"low_poly_forest": 728.0,
+			"city_buildings_no_lights": 450.0,
+			"city_buildings": 384.0,
+			"landscape_with_waterfall": 805.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "NVIDIA GeForce RTX 4070 SUPER",
+		"api": "Vulkan 1.4.312",
+		"results": {
+			"nordic_village": 1238.0,
+			"miside_room": 1437.0,
+			"pool_day": 2149.0,
+			"cs_office": 2006.0,
+			"site_c_haven": 923.0,
+			"mayan_temple": 1978.0,
+			"Fumo": 1333.0,
+			"Fumo_Lights": 952.0,
+			"Fumo_Baked_Lights": 1384.0,
+			"low_poly_forest_no_light": 2130.0,
+			"low_poly_forest": 1137.0,
+			"city_buildings_no_lights": 1373.0,
+			"city_buildings": 927.0,
+			"landscape_with_waterfall": 1966.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "12th Gen Intel(R) Core(TM) i5-12400F",
+		"gpu": "NVIDIA GeForce RTX 4070 SUPER",
+		"api": "Vulkan 1.4.312",
+		"results": {
+			"nordic_village": 1430,
+			"miside_room": 1671,
+			"pool_day": 2292,
+			"cs_office": 2172,
+			"site_c_haven": 997,
+			"mayan_temple": 2133,
+			"Fumo": 1511,
+			"Fumo_Lights": 998,
+			"Fumo_Baked_Lights": 1505,
+			"low_poly_forest_no_light": 2241,
+			"low_poly_forest": 2135,
+			"city_buildings_no_lights": 1651,
+			"city_buildings": 1320,
+			"landscape_with_waterfall": 2152
+		}
+	}
+]

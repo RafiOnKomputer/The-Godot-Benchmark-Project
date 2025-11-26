@@ -1,0 +1,134 @@
+[
+	{
+		"version": "Godot 3.6 | OpenGL ES 2",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 394.0,
+			"miside_room": 737.0,
+			"pool_day": 1374.0,
+			"cs_office": 1158.0,
+			"site_c_haven": 337.0,
+			"mayan_temple": 891.0,
+			"Fumo": 762.0,
+			"Fumo_Lights": 437.0,
+			"Fumo_Baked_Lights": 324.0,
+			"low_poly_forest_no_light": 1027.0,
+			"low_poly_forest": 804.0,
+			"city_buildings_no_lights": 628.0,
+			"city_buildings": 490.0,
+			"landscape_with_waterfall": 1150.0
+		}
+	},
+	{
+		"version": "Godot 3.6 | OpenGL ES 3",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "Unknown",
+		"api": "Unknown",
+		"results": {
+			"nordic_village": 325.0,
+			"miside_room": 653.0,
+			"pool_day": 1133.0,
+			"cs_office": 1044.0,
+			"site_c_haven": 248.0,
+			"mayan_temple": 584.0,
+			"Fumo": 649.0,
+			"Fumo_Lights": 434.0,
+			"Fumo_Baked_Lights": 406.0,
+			"low_poly_forest_no_light": 865.0,
+			"low_poly_forest": 282.0,
+			"city_buildings_no_lights": 533.0,
+			"city_buildings": 185.0,
+			"landscape_with_waterfall": 833.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGLES",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.59, 6.11.11-valve24-2-neptune-611-gfd0dd251480d)",
+		"api": "OpenGL ES 3.2 Mesa 24.3.4 (git-8d0948917e)",
+		"results": {
+			"nordic_village": 344.0,
+			"miside_room": 412.0,
+			"pool_day": 815.0,
+			"cs_office": 699.0,
+			"site_c_haven": 362.0,
+			"mayan_temple": 692.0,
+			"Fumo": 415.0,
+			"Fumo_Lights": 333.0,
+			"Fumo_Baked_Lights": 414.0,
+			"low_poly_forest_no_light": 769.0,
+			"low_poly_forest": 705.0,
+			"city_buildings_no_lights": 392.0,
+			"city_buildings": 326.0,
+			"landscape_with_waterfall": 705.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | OpenGL",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.59, 6.11.11-valve24-2-neptune-611-gfd0dd251480d)",
+		"api": "OpenGL 4.6 (Core Profile) Mesa 24.3.4 (git-8d0948917e)",
+		"results": {
+			"nordic_village": 329.0,
+			"miside_room": 395.0,
+			"pool_day": 751.0,
+			"cs_office": 634.0,
+			"site_c_haven": 344.0,
+			"mayan_temple": 647.0,
+			"Fumo": 408.0,
+			"Fumo_Lights": 322.0,
+			"Fumo_Baked_Lights": 401.0,
+			"low_poly_forest_no_light": 715.0,
+			"low_poly_forest": 670.0,
+			"city_buildings_no_lights": 377.0,
+			"city_buildings": 312.0,
+			"landscape_with_waterfall": 651.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "AMD Custom GPU 0405 (RADV VANGOGH)",
+		"api": "Vulkan 1.3.296",
+		"results": {
+			"nordic_village": 57.0,
+			"miside_room": 58.0,
+			"pool_day": 57.0,
+			"cs_office": 57.0,
+			"site_c_haven": 59.0,
+			"mayan_temple": 57.0,
+			"Fumo": 58.0,
+			"Fumo_Lights": 59.0,
+			"Fumo_Baked_Lights": 58.0,
+			"low_poly_forest_no_light": 58.0,
+			"low_poly_forest": 58.0,
+			"city_buildings_no_lights": 58.0,
+			"city_buildings": 58.0,
+			"landscape_with_waterfall": 56.0
+		}
+	},
+	{
+		"version": "Godot 4.5.1 | Vulkan Mobile",
+		"cpu": "AMD Custom APU 0405",
+		"gpu": "AMD Custom GPU 0405 (RADV VANGOGH)",
+		"api": "Vulkan 1.3.296",
+		"results": {
+			"nordic_village": 57,
+			"miside_room": 55,
+			"pool_day": 58,
+			"cs_office": 57,
+			"site_c_haven": 59,
+			"mayan_temple": 58,
+			"Fumo": 58,
+			"Fumo_Lights": 59,
+			"Fumo_Baked_Lights": 58,
+			"low_poly_forest_no_light": 59,
+			"low_poly_forest": 59,
+			"city_buildings_no_lights": 56,
+			"city_buildings": 58,
+			"landscape_with_waterfall": 56
+		}
+	}
+]

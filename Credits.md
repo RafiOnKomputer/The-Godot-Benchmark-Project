@@ -1,4 +1,3 @@
-
 # Credits
 **Special Thanks To All Benchmark Testers For Their Data And Dedication,  
 May Your GPU Temps Stay Low And Your Clocks Stay High.**
@@ -10,6 +9,7 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 ## <h2 align="center">NVIDIA GPUs</h2>
 
 - **GeForce RTX 4070 SUPER** — by *Prototypd*  
+- **GeForce RTX 4070 SUPER** — by *waoishere*
 - **GeForce RTX 4070** — by *Ricky*  
 - **GeForce RTX 4050 Mobile** — by *Teaboy*  
 - **GeForce RTX 4060 TI** — by *Cris0309*  
@@ -23,17 +23,19 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 - **Quadro 5000** — by *Prototypd*
 
 ## <h2 align="center">Intel GPUs</h2>
-- **Intel Iris Xe Graphics (13th Gen)**  --- by Cris0309
+- **Intel Iris Xe Graphics (13th Gen)**  — by Cris0309
 - **Intel Iris Xe Graphics (12th Gen)** — by *Tronco*  
 - **Intel Iris Xe Graphics (11th Gen)** — by *Prototypd*  
 - **Intel UHD Graphics (11th Gen)** — by *Cris0309*  
 - **Intel UHD Graphics 770** — by *Prototypd*  
+- **Intel UHD Graphics 750** — by *Cris0309*
 - **Intel UHD Graphics 630** — by *Prototypd*  
 - **Intel UHD Graphics 630** — by *RafiOnKomputer*
 - **Intel UHD Graphics 520** — by *Tomato*
 - **Intel HD Graphics 3000** — by *Tahmid*
 ## <h2 align="center">AMD GPUs</h2>
 
+- **Steam Deck APU** — by *Carlos*
 - **Radeon RX 7900 XT** — by *2tru*  
 - **Radeon RX 6750 XT** — by *Cris0309* 
 - **Radeon RX 580** — by *elpesaodelainformaticaxd0831*  
@@ -102,7 +104,7 @@ May Your GPU Temps Stay Low And Your Clocks Stay High.**
 - [**Flandre_Scarlet_Fumo_(Free_3D_Scan)**](https://skfb.ly/6Rro6) — by *Renafox*  
 - [**Cirno_Prism**](https://skfb.ly/oJuXV) — by *James T. McLaury*  
 - [**Fumo_Cirno**](https://skfb.ly/opuus) — by *Gorgonych*  
-- [**東方_Project_-Cirno_Fumo(3D_scan)**](https://skfb.ly/6TAIT) — by *Renafox*  
+- [**東方_Project_-Cirno_Fumo(3D_scan)**](https://skfb.ly/6TFumoT) — by *Renafox*  
 - [**Alice_Margatroid_Fumo_from_Touhou_Project**](https://skfb.ly/oQtMD) — by *mannymanny*  
 - [**Shanghai_Plush_from_Touhou_Project**](https://skfb.ly/oQuqC) — by *mannymanny*
 
