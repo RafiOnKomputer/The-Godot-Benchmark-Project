@@ -24,15 +24,15 @@ All Benchmark Result, Music And 3D Models Used In This Project Belongs To Their 
 
 # Some Benchmark Result Example
 ###Intel
-![](Benchmark Result Graphs/Intel UHD Graphics 630 by RafiOnKomputer.png)
-![](Benchmark Result Graphs/Intel UHD Graphics 520 by Tomato.png)
+![](Benchmark%20Result%20Graphs/Intel%20UHD%20Graphics%20630%20by%20RafiOnKomputer.png)
+![](Benchmark%20Result%20Graphs/Intel%20UHD%20Graphics%20520%20by%20Tomato.png)
 ###Nvidia
-![](Benchmark Result Graphs/GeForce RTX 4070 SUPER by Prototypd.png)
-![](Benchmark Result Graphs/GeForce GTX 1660 Ti by eye9.png)
+![](Benchmark%20Result%20Graphs/GeForce%20RTX%204070%20SUPER%20by%20Prototypd.png)
+![](Benchmark%20Result%20Graphs/GeForce%20GTX%201660%20Ti%20by%20eye9.png)
 ###AMD
-![](Benchmark Result Graphs/Radeon RX 7900 XT by 2tru.png)
-![](Benchmark Result Graphs/Radeon RX 6750 XT by Cris.png)
-![](Benchmark Result Graphs/Radeon RX 580 by elpesaodelainformaticaxd0831.png)
+![](Benchmark%20Result%20Graphs/Radeon%20RX%207900%20XT%20by%202tru.png)
+![](Benchmark%20Result%20Graphs/Radeon%20RX%206750%20XT%20by%20Cris.png)
+![](Benchmark%20Result%20Graphs/Radeon%20RX%20580%20by%20elpesaodelainformaticaxd0831.png)
 
 
 ##  How Does This Test Work?
