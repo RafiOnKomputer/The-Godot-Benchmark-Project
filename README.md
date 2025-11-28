@@ -170,8 +170,7 @@ You Can Just Download The Compiled Project And Test Them Right Away! :D
 
 > **Note:** Because Of File Upload Limit, Map Data Was Separated
 
-> You Can Also Download This Repo From [GitLab](https://gitlab.com/RafiOnKomputer/The-Godot-Benchmark-Project) Or [Codeberg](https://codeberg.org/RafiOnKomputer/The-Godot-Benchmark-Project)! (Map_Data Still Needs To Be Downloaded From GitHub)
-
+> You Can Also Download This Repo From  [Codeberg](https://codeberg.org/RafiOnKomputer/The-Godot-Benchmark-Project)! 
 ### Step 2: Extract And Setup
 
 1. Extract All Files Using 7-Zip
