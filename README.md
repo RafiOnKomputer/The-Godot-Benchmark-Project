@@ -23,13 +23,13 @@ All Benchmark Result, Music And 3D Models Used In This Project Belongs To Their 
 **Full Credits List:** [Credits.md](https://github.com/RafiOnKomputer/The-Godot-Benchmark-Project/blob/main/Credits.md)
 
 # Some Benchmark Result Example
-###Intel
+### Intel
 ![](Benchmark%20Result%20Graphs/Intel%20UHD%20Graphics%20630%20by%20RafiOnKomputer.png)
 ![](Benchmark%20Result%20Graphs/Intel%20UHD%20Graphics%20520%20by%20Tomato.png)
-###Nvidia
+### Nvidia
 ![](Benchmark%20Result%20Graphs/GeForce%20RTX%204070%20SUPER%20by%20Prototypd.png)
 ![](Benchmark%20Result%20Graphs/GeForce%20GTX%201660%20Ti%20by%20eye9.png)
-###AMD
+### AMD
 ![](Benchmark%20Result%20Graphs/Radeon%20RX%207900%20XT%20by%202tru.png)
 ![](Benchmark%20Result%20Graphs/Radeon%20RX%206750%20XT%20by%20Cris.png)
 ![](Benchmark%20Result%20Graphs/Radeon%20RX%20580%20by%20elpesaodelainformaticaxd0831.png)
