@@ -13,7 +13,9 @@ And We Have Seen Unexpected Results All Over The Place And Understand Godot And 
 
 I  Made A YouTube Video That Explains All This In Detail With Visuals!
 
-**You Can Watch It Here:** (I Lied...I didnt released it yet)
+**You Can Watch It Here:**
+
+[![Video Title](https://img.youtube.com/vi/IwdAwVygCzk/maxresdefault.jpg)](https://youtu.be/IwdAwVygCzk)
 
 
 ##  Credits
