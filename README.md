@@ -219,6 +219,17 @@ This Project Is Licensed Under The MIT License.
 
 
 
-**Made With 💜 By RafiOnKomputer**
+## Made With 💜 By RafiOnKomputer
+
+**Check Out My:**
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ScgXj9zuyT)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafionkomputer)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RafiOnKomputer)
+[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=codeberg&logoColor=white)](https://codeberg.org/RafiOnKomputer)
+[![Itch.io](https://img.shields.io/badge/Itch.io-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white)](https://rafionkomputer.itch.io/)
+
+</div>
 
 *This Project Took Way Too Long Because Of ADHD, But It's Finally Done!*  teehee :3
